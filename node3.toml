@@ -1,0 +1,18 @@
+[parity]
+chain = "side-chain-demo.json"
+base_path = "/home/ave/nodes/node3/"
+[network]
+port = 30302
+bootnodes = ["enode://ec96869b5a4c06020de93892a0b0a22601cfc61f0c67393487ff53a7fcf34cec77be24e37d54c4c2f6ba378d365708f68cb4c7a814eac100b0026795078e79e8@127.0.0.1:30400"]
+[rpc]
+port = 8542
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+[ui]
+port = 8182
+[websockets]
+port = 8452
+[account]
+password = ["node.pwds"]
+[mining]
+engine_signer = "0x00a94ac799442fb13de8302026fd03068ba6a428"
+reseal_on_txs = "none"
